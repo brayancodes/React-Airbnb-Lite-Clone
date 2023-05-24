@@ -4,11 +4,9 @@
 
 body {
     margin: 0;
-    position: relative;
 }
 
 .nav-bar {
-    position: absolute;
     width: 550px;
     height: 70px;
     box-shadow: 0px 2.9px 7.45px rgba(0, 0, 0, 0.1);

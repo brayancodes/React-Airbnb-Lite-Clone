@@ -1,16 +1,5 @@
 import React from "react"
-import logo from "./images/airbnb 1.png"
-import "./style.css"
-
-function Navbar() {
-    return (
-        <div className="nav-bar">
-            <div className="my-logo">
-                <img clasName="logo" src={logo}/>
-            </div>
-        </div>
-    )
-}
+import Navbar from "./components/Navbar.js"
 
 function App() {
     return (
