@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-bar {
@@ -13,9 +16,47 @@ body {
 }
 
 .my-logo {
-    position: absolute;
+    position: relative;
     left: 30px;
     top: 22px;
-    right: 0;
-    bottom: 0;
+    width: 83px;
+    height: 26px;
+}
+
+.hero-container {
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 550px;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+
+.photo-grid-photos {
+    max-width: 375px;
+}
+
+.experiences-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.experiences-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222;
+
+    padding-right: 158px;
+    padding-top: 16px;
 }
