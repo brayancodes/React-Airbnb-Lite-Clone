@@ -60,3 +60,75 @@ body {
     padding-right: 158px;
     padding-top: 16px;
 }
+
+.card-container {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 49px;
+}
+
+.thumbnail-image {
+    max-width: 176px;
+    max-height: 235px;
+}
+
+.rating-and-location {
+    display: flex;
+}
+
+.the-star {
+    padding-right: 10px;
+    width: 24px;
+    height: 14px;
+}
+
+.the-rating {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.size-and-location {
+    padding-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+
+.brief-description {
+    padding-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.pricing {
+    display: flex;
+    padding-top: 8px;
+}
+
+.pricing-part-one {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.pricing-part-two {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
